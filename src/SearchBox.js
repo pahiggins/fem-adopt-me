@@ -12,7 +12,7 @@ class SearchBox extends React.Component {
       <Consumer>
         {context => (
           <div className="search-params">
-            <form onSubmit={this.props.handleFormSubmit}>
+            <form onSubmit={this.handleFormSubmit}>
               <label htmlFor="location">
                 Location
                 <input
